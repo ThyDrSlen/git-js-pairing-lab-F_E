@@ -141,3 +141,17 @@ function isLeapYear(year){
 console.log([isLeapYear(2000), isLeapYear(1900), isLeapYear(2020), isLeapYear(1999)]);
 
 console.log("____________________________");
+
+function getExtention(fileName){
+    
+    let extention = fileName.split(".")
+    return "." + extention[1]
+}
+
+console.log([getExtention("hello.txt"),getExtention("app.js"),getExtention("README.md")])
+
+console.log("____________________________");
+
+console.log("____________________________");
+
+console.log("____________________________");
