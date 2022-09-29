@@ -65,3 +65,17 @@ console.log(add(3, 7.5));
 console.log(add(5, 5));
 console.log(add(6, 6));
 console.log("____________________________");
+
+function isNegative(num){
+    if (num < 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+console.log(isNegative(3))         //returns false
+console.log(isNegative(-2))        //returns true
+console.log(isNegative(Math.PI))   //returns false
+
+console.log("____________________________");
