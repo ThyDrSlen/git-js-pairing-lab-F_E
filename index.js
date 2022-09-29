@@ -120,6 +120,13 @@ console.log(largest(41, 108, 86));
 
 console.log("____________________________");
 
+function printTime(){
+    let time = new Date()
+    let formattedTime= time.getHours() + ':' + time.getMinutes() + ':' + time.getSeconds()
+    console.log(formattedTime)
+}
+
+printTime()
 
 
 console.log("____________________________");
