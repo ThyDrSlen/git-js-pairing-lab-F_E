@@ -79,3 +79,10 @@ console.log(isNegative(-2))        //returns true
 console.log(isNegative(Math.PI))   //returns false
 
 console.log("____________________________");
+
+function triangleArea(height, base){
+    return .5*height*base;
+}
+
+console.log(triangleArea(5, 7));
+console.log(triangleArea(6, 8));
