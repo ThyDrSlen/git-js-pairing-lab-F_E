@@ -128,8 +128,16 @@ function printTime(){
 
 printTime()
 
-
 console.log("____________________________");
 
+function isLeapYear(year){
+    if (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log([isLeapYear(2000), isLeapYear(1900), isLeapYear(2020), isLeapYear(1999)]);
 
 console.log("____________________________");
