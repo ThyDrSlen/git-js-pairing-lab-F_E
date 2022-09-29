@@ -5,7 +5,7 @@ function fiveToOneHundred(){
     }
 };
 
-
+console.log("____________________________");
 //Write a function fiveToOneHundred that console logs all numbers from 5 to 100.
 
 fiveToOneHundred();
@@ -16,10 +16,9 @@ function multiplesOfThree(){
     }
     
 }
-
+console.log("____________________________");
 multiplesOfThree();
 
-console.log("____________________________");
 
 function multiplesOfThreeOrFive(){
      for(let i = 3; i<=100; i++){
@@ -32,4 +31,13 @@ function multiplesOfThreeOrFive(){
 
 multiplesOfThreeOrFive();
 
+console.log("____________________________");
+
+function untilNum(num){
+    for(let i = 1;i <= num; i++){
+        console.log(i);
+    }
+}
+
+untilNum(42);
 console.log("____________________________");
