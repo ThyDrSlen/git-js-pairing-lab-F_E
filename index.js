@@ -152,6 +152,20 @@ console.log([getExtention("hello.txt"),getExtention("app.js"),getExtention("READ
 
 console.log("____________________________");
 
+function absoluteNineteen(num){
+    const absolute = Math.abs(num - 19);
+    if (num > 19){
+        return absolute * 3;
+    } else {
+        return absolute;
+    }
+}
+
+console.log(absoluteNineteen(25));
+console.log(absoluteNineteen(0));
+console.log(absoluteNineteen(-6));
+console.log(absoluteNineteen(20));
+
 console.log("____________________________");
 
 console.log("____________________________");
